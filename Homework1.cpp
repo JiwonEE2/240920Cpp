@@ -7,8 +7,14 @@
 using namespace std;
 
 int main() {
-	vector<int>state = { 10,50 };
-	Player* p = new Player("이지원", state[0], state[1]);
+	vector<Player>player;
 
-	p->State();
+	player.push_back(Player("이지원", 10, 50));
+	player.push_back(Player("원", 30, 60));
+	player.push_back(Player("미원", 3, 6));
+	
+	cout << "=== 플레이어 정보 ===\n";
+	for (auto p : player) {
+		p.State();
+	}
 }

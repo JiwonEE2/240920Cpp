@@ -11,6 +11,6 @@ public:
 	Unit(const string& n, const int a, const int h);
 	virtual ~Unit();
 
-	void State();
+	virtual void State() = 0;
 };
 

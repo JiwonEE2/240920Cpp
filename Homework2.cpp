@@ -1,5 +1,10 @@
 /*	[240920 과제2]
-2. 가장 큰 값 찾기
+2. 벡터를 이용한 큰값 찾기
+int FindMaxValue(const vector<int>& v) {
+	//여기채워라
+
+	return ??
+}
 */
 #include<iostream>
 #include<vector>
